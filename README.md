@@ -33,7 +33,7 @@ flask-nginx-lb/
 ### 1. Clone and Navigate
 
 ```bash
-git clone https://github.com/youruser/flask-nginx-lb.git
+git clone https://github.com/rifqiaz06/flask-nginx-lb.git
 cd flask-nginx-lb
 ```
 
