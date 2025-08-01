@@ -1,6 +1,6 @@
 services:
   flask_app1:
-    build: ./flask_app
+    build: ./app
     container_name: flask_app1
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
@@ -11,7 +11,7 @@ services:
       - lb_net
 
   flask_app2:
-    build: ./flask_app
+    build: ./app
     container_name: flask_app2
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
@@ -22,7 +22,7 @@ services:
       - lb_net
 
   flask_app3:
-    build: ./flask_app
+    build: ./app
     container_name: flask_app3
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
