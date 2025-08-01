@@ -1,4 +1,4 @@
-# 📘 README: Flask + NGINX Load Balancer with Docker
+# Flask + NGINX Load Balancer with Docker
 
 This project demonstrates a simple load balancing setup using **Flask**, **NGINX**, and **Docker Compose**. Useful for local development and understanding how to distribute traffic across multiple app instances.
 
