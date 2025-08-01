@@ -4,7 +4,7 @@ This project demonstrates a simple load balancing setup using **Flask**, **NGINX
 
 ---
 
-## 📦 Features
+## Features
 
 - Load balancing using NGINX upstream
 - Rate limiting using NGINX `limit_req`
@@ -28,7 +28,7 @@ flask-nginx-lb/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone and Navigate
 
@@ -55,13 +55,13 @@ Refresh the page a few times to see load balancing between different containers.
 
 ---
 
-## 🔍 Health Check
+## Health Check
 
 Each Flask instance exposes a health endpoint at `/health`. NGINX also exposes a health check at `/health` directly via the load balancer.
 
 ---
 
-## 🛠️ Configuration Overview
+## 🛠Configuration Overview
 
 ### Flask App: `app/app.py`
 
@@ -87,7 +87,7 @@ Each Flask instance exposes a health endpoint at `/health`. NGINX also exposes a
 
 ---
 
-## 🌈 Optional Enhancements
+## Optional Enhancements
 
 - Add HTTPS with certbot (for production)
 - Add logging for NGINX access/error
@@ -96,7 +96,7 @@ Each Flask instance exposes a health endpoint at `/health`. NGINX also exposes a
 
 ---
 
-## 📚 References
+## References
 
 - Flask: [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
 - NGINX: [https://nginx.org/en/docs/](https://nginx.org/en/docs/)
